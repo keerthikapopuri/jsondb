@@ -41,19 +41,46 @@ This project aims to demonstrate the following functionalities:
 ## Examples of Use
 
 Provide code snippets or examples demonstrating how to use JsonPowerDB in the context of your web application.
+function validateAndGetFormData() {
+        var stuIdVar = $("#stuId").val();
+        if (stuIdVar === "") {
+          alert("Student Roll-No Required Value");
+          $("#stuId").focus();
+          return "";
+        }
+        var stuNameVar = $("#stuName").val();
+        if (stuNameVar === "") {
+          alert("Student Name is Required Value");
+          $("#stuName").focus();
+          return "";
+        }
+        var stuClassVar = $("#stuClass").val();
+        if (stuClassVar === "") {
+          alert("Student Class is Required Value");
+          $("#stuClass").focus();
+          return "";
+        }
 
-```javascript
-// Example code for inserting data into JsonPowerDB
-const jsonData = {
-    key: "value",
-    name: "John Doe",
-    age: 25
-};
+        var stuDOBVar = $("#stuDOB").val();
+        if (stuDOBVar === "") {
+          alert("Student Birth-Date is Required Value");
+          $("stuDOB").focus();
+          return "";
+        }
 
-// Insert data into JsonPowerDB
-const result = jsonPowerDB.insert("exampleCollection", jsonData);
-console.log(result);
-```
+        var stuAddressVar = $("#stuAddress").val();
+        if (stuAddressVar === "") {
+          alert("Student Address is Required Value");
+          $("#stuAddress").focus();
+          return "";
+        }
+
+        var stuEnrollDateVar = $("stuEnrollDate").val();
+        if (stuEnrollDateVar === "") {
+          alert("Student Enrollment-Date is Required Value");
+          $("stuEnrollDate").focus();
+          return "";
+        }
 
 ## Project Status
 
