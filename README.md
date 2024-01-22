@@ -41,6 +41,7 @@ This project aims to demonstrate the following functionalities:
 ## Examples of Use
 
 Provide code snippets or examples demonstrating how to use JsonPowerDB in the context of your web application.
+```
 function validateAndGetFormData() {
         var stuIdVar = $("#stuId").val();
         if (stuIdVar === "") {
@@ -81,7 +82,7 @@ function validateAndGetFormData() {
           $("stuEnrollDate").focus();
           return "";
         }
-
+```
 ## Project Status
 
 The project is currently in its initial release version (1.0.0). Future releases may include additional features, improvements, and optimizations.
