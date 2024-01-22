@@ -2,7 +2,7 @@ Sure, here's a template for your project documentation:
 
 # Title of the Project
 
-JsonPowerDB-Powered Web Application
+JsonPowerDB-Powered Web Application for student registration
 
 ## Description
 
